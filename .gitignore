@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Environment and secrets (commit a .env.example instead)
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Test and coverage output
+coverage/
+.nyc_output/
+.vitest/
+
+# Local database data (if Compose bind-mounts a data folder)
+pgdata/
+postgres-data/
+*.sqlite
+*.sqlite3
+
+# Caches
+.cache/
+.eslintcache
+.npm/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors and IDEs
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.swp
+*.swo
+*~
+
+# Claude Code local settings
+.claude/settings.local.json
